@@ -11,8 +11,8 @@ import { NavLink } from "react-router-dom";
 function MainContent() {
     return (
         <div className={styles.roles}>
-            
-            <h2>Welcome to  AllanoTech...</h2>
+             <section>
+             <h2>Welcome to  AllanoTech...</h2>
             <p>My name is Allan Zizinga and i am a Full Stack software developer graduate from Code Institute situtated in Dublin Ireland.</p>
 
             <p>As a Full Stack developer, i am actively involved in the products full lifecycle that is,
@@ -35,6 +35,8 @@ function MainContent() {
                     
                 </ul>
             </p>
+            
+             </section>
             
         </div>
     )
