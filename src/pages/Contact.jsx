@@ -1,5 +1,6 @@
 import PageNavigation from "./PageNavigation"
 import styles from './Contact.module.css'
+import Footer from "../Components/Footer"
 
 
 function Contact() {
@@ -29,6 +30,8 @@ function Contact() {
             
             
         </form>
+
+        <Footer />
         </>
         
     )

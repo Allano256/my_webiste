@@ -6,6 +6,8 @@ import { MdOutlineCreate } from "react-icons/md";
 import { PiTreeStructureLight } from "react-icons/pi";
 import styles from './MainContent.module.css';
 
+import { NavLink } from "react-router-dom";
+
 function MainContent() {
     return (
         <div className={styles.roles}>
@@ -28,6 +30,8 @@ function MainContent() {
                     <p>Release the application to the users, deploying it to production servers, configure enviroment and document release. In doing so the application is live and accessible to users.</p></li>
                     <li><h3><FcSupport /> Maintenance and Support</h3>
                     <p>Keep the application running smoothly and update it with time to make it better and also fix bugs,monitor performance.</p></li>
+
+                    <NavLink to="/contact">Follow the link to get intouch with me...</NavLink>
                     
                 </ul>
             </p>
