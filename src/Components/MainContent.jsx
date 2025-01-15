@@ -4,22 +4,24 @@ import { GrDeploy } from "react-icons/gr";
 import { FcSupport } from "react-icons/fc";
 import { MdOutlineCreate } from "react-icons/md";
 import { PiTreeStructureLight } from "react-icons/pi";
+import styles from './MainContent.module.css';
 
 function MainContent() {
     return (
-        <div>
-            <h2>Welcome to my AllanoTech...</h2>
+        <div className={styles.roles}>
+            
+            <h2>Welcome to  AllanoTech...</h2>
             <p>My name is Allan Zizinga and i am a Full Stack software developer graduate from Code Institute situtated in Dublin Ireland.</p>
 
             <p>As a Full Stack developer, i am actively involved in the products full lifecycle that is,
-                <ol>
+                <ul>
                     <li><h3> <PiTreeStructureLight /> Planning and Requirement Analysis</h3> 
                     <p>Define the applications purpose, goals and requirements.</p>
                     </li>
                     <li><h3> <MdOutlineCreate /> Design</h3>
                     <p>Create the architectute and design,design the user interface,database, wireframes and system components</p></li>
                     <li><h3><FaCode />  Development</h3>
-                    <p>Build the application inline with the design specifications,write and test code,integrate both the frontend and backend systems.</p></li>
+                    <p>Build the application inline with the design specifications,write and test code,integrate both the frontend  and backend systems.</p></li>
                     <li><h3> <SiSpeedtest />  Testing</h3>
                     <p>Ensure that the application is free from bugs, meets requirements and is ready for deployment.</p></li>
                     <li><h3><GrDeploy />  Deployment</h3>
@@ -27,7 +29,7 @@ function MainContent() {
                     <li><h3><FcSupport /> Maintenance and Support</h3>
                     <p>Keep the application running smoothly and update it with time to make it better and also fix bugs,monitor performance.</p></li>
                     
-                </ol>
+                </ul>
             </p>
             
         </div>

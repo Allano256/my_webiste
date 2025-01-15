@@ -1,8 +1,10 @@
+import styles from './Footer.module.css'
+
 function Footer() {
     return (
-        <div>
-            <h2>Footer coming soon</h2>
-        </div>
+        <footer className={styles.footer}>
+           <h3>&copy; 2025 AllanoTech. All rights reserved.</h3>
+        </footer>
     )
 }
 
