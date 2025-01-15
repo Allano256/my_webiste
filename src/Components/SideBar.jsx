@@ -1,9 +1,12 @@
+import styles from './SideBar.module.css'
+
 function SideBar() {
-    return (
-        <div>
-            <h3>Image coming soon</h3>
-        </div>
+    return(
+   <div className={styles.SideBar}>
+     <img src="/public/me.jpg" alt="an image of man standing" />
+   </div>
     )
+    
 }
 
 export default SideBar

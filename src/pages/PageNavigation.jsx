@@ -1,12 +1,13 @@
 import { NavLink } from "react-router-dom"
+import styles from './PageNavigation.module.css'
 
 function PageNavigation() {
     return (
-        <div>
-            <NavLink to="/" >Home</NavLink>
-            <NavLink to="contact" >Contact</NavLink>
+        <nav className={styles.navigation}>
+            <NavLink style={{textDecoration:"none"}} to="/" > <h3>Home</h3></NavLink>
+            <NavLink style={{textDecoration:"none"}} to="contact" ><h3>Contact</h3></NavLink>
 
-        </div>
+        </nav>
     )
 }
 
