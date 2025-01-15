@@ -10,15 +10,22 @@ function Applayout() {
         <>
          <PageNavigation />
         <div className={styles.layout} >
-         
-            <div><SideBar /></div>
+           <div> 
+             <div><SideBar />
+             </div>
            
         
-         <div> <MainContent /></div>
+           <div> 
+            <MainContent />
+            </div>
+            </div>
+           
  
-   
+          <div>  <Footer /></div>
         </div>
-             <Footer />
+
+
+            
         
         </>
        
