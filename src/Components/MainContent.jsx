@@ -32,7 +32,7 @@ function MainContent() {
                     <li><h3><FcSupport /> Maintenance and Support</h3>
                     <p>Keep the application running smoothly and update it with time to make it better and also fix bugs,monitor performance.</p></li>
                  <hr />
-                    <NavLink style={{color: "firebrick", fontSize:22}} to="/contact">Click on me...</NavLink>
+                    <NavLink style={{color: "firebrick", fontSize:22}} to="/contact">Click to contact me...</NavLink>
                     
                 </ul>
             </p>
