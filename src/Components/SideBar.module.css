@@ -7,3 +7,10 @@ img {
   width: 100%;
   margin-bottom: 0;
 }
+
+/* @media screen and(min-width: 768) {
+  img {
+    width: 80%;
+    margin-bottom: 0;
+  }
+} */

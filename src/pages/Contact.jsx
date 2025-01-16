@@ -14,7 +14,7 @@ function Contact() {
     const onSubmit= async (data)=>{
 
       try {
-        await new Promise((resolve)=> setTimeout(resolve,1300));
+        await new Promise((resolve)=> setTimeout(resolve,1500));
         //  setSuccessMessage("Form submitted successfully")
         throw new Error
       }  catch (error) {
@@ -56,7 +56,7 @@ function Contact() {
                 required:"Field is required",
                 pattern:{
                     value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                    message:"Email must inclue '@",
+                    message:"Email must include '@",
                 }
                })} type="text" />
                {errors.email && <div className="errors">{errors.email.message}</div>}
@@ -76,7 +76,7 @@ function Contact() {
              
              <button disabled={isSubmitting} type="submit">{isSubmitting ? "Loading...": "Submit"}</button>
 
-             {/* {successMessage &&  <div className="sucess">{successMessage.message}</div>} */}
+             {/* {successMessage &&  <div className="success">{successMessage.message}</div>} */}
         </form>
 
         <Footer />
@@ -86,32 +86,3 @@ function Contact() {
 }
 
 export default Contact
-
-
-// <label htmlFor="">First Name: </label>
-//             <input {...register("firstName",{
-//                 validate: value=> value !== int
-//             })} type="text" />
-//             <label htmlFor="">Last Name: </label>
-//             <input {...register("lastName")} type="text" />
-//             <label htmlFor="">Email: </label>
-//             <input {...register("email",{
-//                 required:"Required",
-//                 pattern: {
-//                     value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-//                     message: "Invalid email address"
-//                 }
-//             })} type="text" />
-//             <label htmlFor="">Phone: </label>
-//             <input {...register("phone")} type="text" />
-
-//             <label htmlFor="">Choose an option:</label>
-//          <select>
-//             <option value="">Hire services</option>
-//             <option value="">Collaboration</option>
-//             <option value="">General inquiries</option>
-//          </select>
-
-//          <label  htmlFor="">Leave a message: </label>
-//            <textarea {...register("message")} name="message" id="message" placeholder="Leave a message..."> </textarea>
-//            <button>Submit</button> 

@@ -4,3 +4,10 @@
   opacity: 0.7;
   padding: 20px;
 }
+
+@media screen and (min-width: 768px) {
+  .footer div {
+    text-align: center;
+    font-size: 20px;
+  }
+}

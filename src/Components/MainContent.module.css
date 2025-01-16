@@ -11,8 +11,32 @@
   padding-left: 3px;
 }
 
+.roles hr {
+  color: black;
+  opacity: 0.6;
+}
+
+.roles svg {
+  color: firebrick;
+}
+
 .roles h2,
 h3,
 p {
   letter-spacing: 0.1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .roles h2,
+  h3,
+  p {
+    letter-spacing: 0.1rem;
+    font-size: 25px;
+  }
+
+  .roles h2,
+  h3 {
+    letter-spacing: 0.1rem;
+    font-size: 35px;
+  }
 }
