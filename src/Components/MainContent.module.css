@@ -17,7 +17,7 @@
 }
 
 .roles svg {
-  color: firebrick;
+  color: rgb(232, 15, 15);
 }
 
 .roles h2,
@@ -27,6 +27,12 @@ p {
 }
 
 @media screen and (min-width: 768px) {
+  .roles {
+    padding: 5px 5px;
+
+    width: 100%;
+    margin-left: auto;
+  }
   .roles h2,
   h3,
   p {

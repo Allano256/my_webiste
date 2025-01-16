@@ -13,9 +13,9 @@ function MainContent() {
         <div className={styles.roles}>
              <section>
              <h2>Welcome to  AllanoTech...</h2>
-            <p>My name is Allan Zizinga and i am a Full Stack software developer graduate from Code Institute situtated in Dublin Ireland.</p>
+            <p>My name is Allan Zizinga and i am a Full Stack software developer, a graduate from Code Institute situated in Dublin Ireland.</p>
 
-            <p>As a Full Stack developer, i am actively involved in the products full lifecycle <br/> that is,
+            <p>As a Full Stack developer, i am actively involved in the product's full lifecycle <br/> that is,
                 <hr />
                 <ul>
                     <li><h3> <PiTreeStructureLight /> Planning and Requirement Analysis</h3> 
@@ -32,7 +32,7 @@ function MainContent() {
                     <li><h3><FcSupport /> Maintenance and Support</h3>
                     <p>Keep the application running smoothly and update it with time to make it better and also fix bugs,monitor performance.</p></li>
                  <hr />
-                    <NavLink to="/contact">Follow the link to get intouch with me...</NavLink>
+                    <NavLink style={{color: "firebrick", fontSize:22}} to="/contact">Click on me...</NavLink>
                     
                 </ul>
             </p>

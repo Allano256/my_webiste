@@ -9,5 +9,6 @@
   .footer div {
     text-align: center;
     font-size: 20px;
+    width: 100%;
   }
 }
