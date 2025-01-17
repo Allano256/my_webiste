@@ -26,30 +26,30 @@ p {
   letter-spacing: 0.1rem;
 }
 
-.link__bottom {
+.bottom {
   color: firebrick;
   font-size: 22px;
 }
 
 p {
   letter-spacing: 0.1rem;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .roles h2,
 h3 {
   letter-spacing: 0.1rem;
-  font-size: 35px;
+  font-size: 30px;
 }
 
-.link__bottom {
+.bottom {
   color: firebrick;
   font-size: 22px;
 }
 
 @media screen and (min-width: 1024px) {
-  .link__bottom {
+  .bottom {
     color: firebrick;
-    font-size: 30px;
+    font-size: 35px;
   }
 }
