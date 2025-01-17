@@ -2,7 +2,7 @@ import PageNavigation from "./PageNavigation"
 import styles from './Contact.module.css'
 import Footer from "../Components/Footer"
 import { useForm } from "react-hook-form"
-import { useState } from "react"
+// import { useState } from "react"
 
 
 
@@ -20,9 +20,7 @@ function Contact() {
       }  catch (error) {
         setError("Form submission failed",{message:"something went wrong"})
       }
-           
-      
-    
+          
         console.log(data)
     }
 

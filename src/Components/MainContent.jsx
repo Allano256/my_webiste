@@ -15,7 +15,7 @@ function MainContent() {
              <h2>Welcome to  AllanoTech...</h2>
             <p  >My name is Allan Zizinga and i am a Full Stack software developer, a graduate from Code Institute situated in Dublin Ireland.</p>
 
-            <p>As a Full Stack developer, i am actively involved in the product's full lifecycle <br/> that is,
+            <p>As a Full Stack developer, i am actively involved in the product full lifecycle <br/> that is,
                 <hr />
                 <ul>
                     <li><h3> <PiTreeStructureLight /> Planning and Requirement Analysis</h3> 
