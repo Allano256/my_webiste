@@ -12,3 +12,11 @@
     width: 100%;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .footer div {
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+  }
+}
