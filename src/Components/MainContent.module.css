@@ -26,23 +26,30 @@ p {
   letter-spacing: 0.1rem;
 }
 
-@media screen and (min-width: 768px) {
-  .roles {
-    padding: 5px 5px;
+.link__bottom {
+  color: firebrick;
+  font-size: 22px;
+}
 
-    width: 100%;
-    margin-left: auto;
-  }
-  .roles h2,
-  h3,
-  p {
-    letter-spacing: 0.1rem;
-    font-size: 25px;
-  }
+p {
+  letter-spacing: 0.1rem;
+  font-size: 25px;
+}
 
-  .roles h2,
-  h3 {
-    letter-spacing: 0.1rem;
-    font-size: 35px;
+.roles h2,
+h3 {
+  letter-spacing: 0.1rem;
+  font-size: 35px;
+}
+
+.link__bottom {
+  color: firebrick;
+  font-size: 22px;
+}
+
+@media screen and (min-width: 1024px) {
+  .link__bottom {
+    color: firebrick;
+    font-size: 30px;
   }
 }

@@ -9,9 +9,10 @@
   .layout {
     display: grid;
     grid-template-areas:
-      "sidebar main "
+      "sidebar main  "
       "footer footer";
     min-height: 100vh;
+    width: auto;
     /* grid-template-columns: 1fr 2fr; */
     /* grid-template-rows: auto 1fr auto; */
     /* gap: 10px; */

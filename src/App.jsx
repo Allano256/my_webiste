@@ -4,6 +4,7 @@ import './App.css'
 
 import Contact from './pages/Contact'
 import Applayout from './pages/Applayout'
+import Projects from './pages/Projects'
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
       </Route>
 
       <Route path='contact' element={<Contact />} />
+      <Route path='projects' element={<Projects />} />
 
    </Routes>
    </BrowserRouter> 
