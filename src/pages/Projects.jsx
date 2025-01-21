@@ -12,10 +12,13 @@ function Projects() {
     return (
         <>
          <PageNavigation />
+         <hr/>
          
        <div className={styles.project}>
         <h1> Projects page</h1>
         <p>Follow the links in the description <br /> to access the live versions.</p>
+
+        
         
         <div className={styles.item1}>
             <h3>Restaurant booking application.</h3>
