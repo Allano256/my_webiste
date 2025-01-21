@@ -37,7 +37,7 @@ function Projects() {
             {showMoreFootball ? 'Read Less': 'Read More'}
         </button>
             <img src="/top_talent.png" alt="an image of the restaurant layout" />
-            <NavLink to=' https://allano256.github.io/top-talent/' ><h3>Live Version.</h3> </NavLink>
+            <NavLink to='https://allano256.github.io/top-talent/' ><h3>Live Version.</h3> </NavLink>
         </div>
         
        </div>
