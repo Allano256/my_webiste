@@ -18,7 +18,7 @@ function Projects() {
         <p>Follow the links in the description <br /> to access the live versions.</p>
         
         <div className={styles.item1}>
-            <h3>The restaurant booking application.</h3>
+            <h3>Restaurant booking application.</h3>
             <p>This application was developed using Django,Python,Javascript,CSS,HTML.All these technologies combined give the application a modern look...</p>
            {showMoreRestaurant && (
             <p>The Django framework is a powerfull Python web framework that allows quick setup of an application. </p>
@@ -30,7 +30,7 @@ function Projects() {
             <NavLink to='https://allano256.github.io/restaurant_app/' ><h3>Live Version.</h3> </NavLink>
         </div>
         <div className={styles.item2}>
-        <h3>A Football Agency Website.</h3>
+        <h3>Football Agency Website.</h3>
         <p>This is a static website built only with HTML and CSS, there is no interaction added to the page...</p>
         {showMoreFootball && (<p>For clients that only want physical presence on the internet, this is an ideal setup.</p>)}
         <button onClick={toggleFootballDetails} >
