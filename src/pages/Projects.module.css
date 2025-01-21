@@ -18,14 +18,11 @@ img {
   object-fit: cover;
 }
 
-.item1 {
-  text-align: center;
-  background-color: black;
-}
-
+.item1,
 .item2 {
   text-align: center;
   background-color: black;
+  width: 100%;
 }
 
 button {
