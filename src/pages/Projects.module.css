@@ -28,12 +28,12 @@ img {
 button {
   background-color: black;
   border: none;
-  color: white;
+  color: firebrick;
   margin-bottom: 5px;
   font-size: 1.2rem;
   cursor: pointer;
 }
 
 button:hover {
-  color: firebrick;
+  color: rgb(224, 221, 221);
 }
