@@ -10,8 +10,8 @@ import { NavLink } from "react-router-dom";
 
 function MainContent() {
     return (
-        <div className={styles.roles}>
-             <section>
+        <section className={styles.roles}>
+             <div>
              <h2>Welcome to  AllanoTech...</h2>
             <p  >My name is Allan Zizinga and i am a Full Stack software developer, a graduate from Code Institute situated in Dublin Ireland.</p>
 
@@ -37,9 +37,9 @@ function MainContent() {
                 </ul>
             </p>
             
-             </section>
+             </div>
             
-        </div>
+        </section>
     )
 }
 
