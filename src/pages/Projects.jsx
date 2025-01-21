@@ -27,7 +27,7 @@ function Projects() {
             {showMoreRestaurant ? 'Read Less':'Read More'}
            </button>
             <img src="/restaurant_img.png" alt="an image of the restaurant layout" />
-            <NavLink to='https://restaurant256-cba0e80966cc.herokuapp.com/' ><h3>Live Version.</h3> </NavLink>
+            <NavLink to='https://restaurant256-cba0e80966cc.herokuapp.com/' ><h3>Jo's Restaurant.</h3> </NavLink>
         </div>
         <div className={styles.item2}>
         <h3>Football Agency Website.</h3>
@@ -37,7 +37,7 @@ function Projects() {
             {showMoreFootball ? 'Read Less': 'Read More'}
         </button>
             <img src="/top_talent.png" alt="an image of the restaurant layout" />
-            <NavLink to='https://allano256.github.io/top-talent/' ><h3>Live Version.</h3> </NavLink>
+            <NavLink to='https://allano256.github.io/top-talent/' ><h3>Top Talent Agency.</h3> </NavLink>
         </div>
         
        </div>
