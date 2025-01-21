@@ -26,7 +26,7 @@ function Projects() {
            <button onClick={toggleRestaurantDetails}> 
             {showMoreRestaurant ? 'Read Less':'Read More'}
            </button>
-            <img src="/public/restaurant_img.png" alt="an image of the restaurant layout" />
+            <img src="/restaurant_img.png" alt="an image of the restaurant layout" />
             <NavLink to='https://allano256.github.io/restaurant_app/' ><h3>Live Version.</h3> </NavLink>
         </div>
         <div className={styles.item2}>
@@ -36,7 +36,7 @@ function Projects() {
         <button onClick={toggleFootballDetails} >
             {showMoreFootball ? 'Read Less': 'Read More'}
         </button>
-            <img src="/public/top_talent.png" alt="an image of the restaurant layout" />
+            <img src="/top_talent.png" alt="an image of the restaurant layout" />
             <NavLink to=' https://allano256.github.io/top-talent/' ><h3>Live Version.</h3> </NavLink>
         </div>
         
