@@ -12,8 +12,8 @@ function Projects() {
     return (
         <>
          <PageNavigation />
-         <hr/>
-         
+         {/* <hr/>
+          */}
        <div className={styles.project}>
         <h1> Projects page</h1>
         <p>Follow the links in the description <br /> to access the live versions.</p>

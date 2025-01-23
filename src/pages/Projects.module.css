@@ -15,7 +15,9 @@ img {
   object-fit: cover;
 }
 
-hr {
+.roles hr {
+  color: black;
+  opacity: 0.6;
   width: 100%;
 }
 
@@ -24,7 +26,6 @@ hr {
   text-align: center;
   background-color: black;
   width: 100%;
-  height: 80vh;
 }
 
 button {
@@ -45,7 +46,7 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-    height: 100vh;
+    height: 100%;
   }
   .tem2 {
     height: 100%;
@@ -53,5 +54,9 @@ button:hover {
 
   h1 {
     text-align: center;
+  }
+
+  .item2 {
+    height: 100%;
   }
 }

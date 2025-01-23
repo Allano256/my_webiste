@@ -53,4 +53,12 @@ h3 {
     color: firebrick;
     font-size: 35px;
   }
+
+  .roles {
+    height: 100%;
+  }
+
+  .bottom {
+    margin-bottom: 10px;
+  }
 }

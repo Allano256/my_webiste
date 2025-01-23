@@ -32,4 +32,9 @@
   .footer h3 {
     font-size: 25px;
   }
+
+  .footer {
+    margin-top: 0.5px;
+    opacity: unset;
+  }
 }
